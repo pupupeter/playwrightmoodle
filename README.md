@@ -33,55 +33,52 @@ pip install python-dotenv playwright google-generativeai
 playwright install
 ```
 
-2. Set up .env file
-In the root folder, create a file named .env and add your credentials:
+### 2. Set up `.env` File
+Create a .env file in the root folder and add your credentials:
 
-
+```
 PASSWORD=your_moodle_password
 GEMINI_API_KEY=your_gemini_api_key
-Make sure your Gemini API key is valid and has access to the model.
-
-3. Update Username in the Script
-In the Python script, change this line to your actual Moodle username:
-
-
+```
+### 3. Update Username in the Script
+Open the Python script and replace the default username with your actual Moodle account:
+```
 USERNAME = "your_account"
+```
 
-4. Run the Script
-
+### 4. Run the Script
+```
 python main.py
-If your filename is different from main.py, make sure to run the correct filename.
-
-📂 Output Files
+```
+### 📂 Output Files
+```
 homework.html
-Contains both the extracted Moodle announcement and the Gemini-generated draft in a styled HTML format.
+```
+A styled HTML file containing:
 
+-The extracted Moodle assignment content
+
+-Gemini-generated code and explanation
+```
 generated_code.py
-Contains only the generated Python code for easy testing or editing.
+```
+A standalone Python file with the AI-generated code, ready for testing or editing.
+### 💡 Notes
+his tool is intended for educational support and code prototyping.
 
-💡 Notes
-This tool is designed for academic support and learning enhancement.
+It is best used for:
 
-It is ideal for:
+✏️ Rapid assignment content extraction
 
-Quickly extracting assignment instructions
+🤖 AI-generated code with clear explanations
 
-Getting an AI-generated code draft with explanation
+💼 Saving time during early-stage development
+### 🧠 Tech Stack
 
-Saving time during early-stage development or documentation
-
-⚠ Please use responsibly: Do not submit AI-generated content without personal review or editing. Make sure your submission reflects your own understanding.
-
-🧠 Tech Stack
 Playwright – Headless browser automation
 
 Google Generative AI (Gemini) – Text and code generation
 
-Python – Scripting and control flow
+Python – Scripting and automation
 
-dotenv – Environment variable management
-
-📸 Screenshots & Demo (Optional)
-Add screenshots of the HTML output and Gemini reply here for visual demo.
-
-
+dotenv – Secure environment variable management
