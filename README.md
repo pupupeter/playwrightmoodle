@@ -1,6 +1,6 @@
 # playwrightmoodle
 
-[korean]()
+[korean](https://github.com/pupupeter/playwrightmoodle/blob/main/koreanreadme.md)
 
 # 📘  Auto Extractor & Gemini Draft Generator
 
