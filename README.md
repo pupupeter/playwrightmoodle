@@ -31,7 +31,7 @@ This Python tool combines **Playwright automation** with **Google's Gemini API**
 ```bash
 pip install python-dotenv playwright google-generativeai
 playwright install
-
+```
 
 2. Set up .env file
 In the root folder, create a file named .env and add your credentials:
