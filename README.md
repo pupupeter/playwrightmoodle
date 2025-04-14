@@ -1,5 +1,6 @@
 # playwrightmoodle
 
+[korean]()
 
 # 📘  Auto Extractor & Gemini Draft Generator
 
