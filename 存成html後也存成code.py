@@ -6,7 +6,7 @@ import google.generativeai as genai
 
 # 載入 .env 變數
 load_dotenv()
-USERNAME = "41122061L"
+USERNAME = "your account"
 PASSWORD = os.getenv("PASSWORD")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
